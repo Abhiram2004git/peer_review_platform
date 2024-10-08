@@ -1,0 +1,154 @@
+/* General Dashboard Styles */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for dashboard */
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #007bff; /* Primary color for header */
+}
+
+.dashboard-header h1 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.logout-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background-color: #d43f3f;
+}
+
+/* Sidebar for common dashboard navigation */
+.dashboard-sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #007bff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sidebar-menu-item {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #0056b3;
+  text-align: left;
+}
+
+.sidebar-menu-item:hover {
+  background-color: #003f8f;
+}
+
+.dashboard-content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+/* Form styling */
+.dashboard-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.dashboard-label {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.dashboard-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.dashboard-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styling */
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th, .dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.dashboard-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.dashboard-table td {
+  background-color: #f9f9f9;
+}
+
+/* Footer */
+.dashboard-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dashboard-footer p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* PDF upload styling */
+.dashboard-input-file {
+  padding: 5px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.dashboard-input-file-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,45 @@
+/* Home.css */
+
+/* Full page container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  /* Full viewport height */
+    background-color: #f5f5f5; /* Light background color */
+    text-align: center; /* Center text */
+    position: relative; /* Relative positioning for footer */
+}
+
+/* Style for the image */
+.centered-image {
+    max-width: 60%;  /* Adjust the width of the image as needed */
+    height: auto;    /* Keep the image aspect ratio */
+    margin-bottom: 20px; /* Space between image and heading */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
+}
+
+/* Style for the heading */
+.centered-heading {
+    font-size: 2rem;
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Footer styles */
+.home-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+.home-footer p {
+    margin: 0;
+}
